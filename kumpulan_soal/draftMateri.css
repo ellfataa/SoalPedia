@@ -1,0 +1,469 @@
+* {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif, "Poppins";
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.logo1 {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoAwal {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+.menuAwal {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+.menuLatihan {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.menuKumpulan {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #e78fb3;
+}
+.menuLatihan:hover {
+  color: #e78fb3;
+  transition: 0.5s;
+}
+.menuKumpulan:hover {
+  color: #e78fb3;
+  transition: 0.5s;
+}
+.menuLatihan {
+  margin-right: 20px;
+}
+
+.btnAwal {
+  width: 25%;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnMasuk {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.btnMasuk:hover {
+  color: #9656a1;
+}
+.btnDaftar {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: #9656a1;
+  margin-left: 20px;
+  border: 1px solid #9656a1;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+.btnDaftar:hover {
+  background-color: #9656a1;
+  color: white;
+}
+
+.heading {
+  margin-left: 6%;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.back {
+  width: auto;
+  height: auto;
+  margin: auto 0;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.back a {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  border: none;
+}
+.back img {
+  width: 25px;
+  height: 25px;
+}
+.kritik-saran {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background-color: #b20040;
+  border-radius: 5px;
+  padding: 0 6px;
+  justify-content: space-between;
+  margin: auto 0;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.kritik-saran:hover {
+  background-color: #e78fb3;
+}
+.tambah img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: 5px;
+}
+.krisan {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin: auto 0;
+}
+.lihat-laporan {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.lihat-laporan a {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  background-color: #b20040;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 3px 10px;
+}
+.lihat-laporan a:hover {
+  background-color: #e78fb3;
+}
+.lihat-krisan {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background-color: #b20040;
+  border-radius: 5px;
+  padding: 0 6px;
+  justify-content: space-between;
+  margin: auto 0;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.lihat-krisan:hover {
+  background-color: #e78fb3;
+}
+.info img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-top: 5px;
+}
+.lihat {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin: auto 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  background-color: #e78fb3;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.namaMapel {
+  max-width: 30%;
+  height: auto;
+  margin: auto 0;
+  margin-left: 10px;
+  font-family: "Poppins";
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.kelas {
+  font-family: "PT Sans";
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+.tambahSoal {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  background-color: #9656a1;
+  border-radius: 5px;
+  margin: auto 0;
+  padding: 4px 4px 1px 4px;
+  justify-content: center;
+}
+.tambahSoal:hover {
+  background-color: #e8da5d;
+}
+.add img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.tambah {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.dropdown {
+  display: inline-block;
+  width: 10%;
+  height: auto;
+  margin: auto 0;
+}
+.dropdown button {
+  background-color: white;
+  color: #9656a1;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 6px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dropdown a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9656a1;
+  min-width: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover button {
+  background-color: #e8da5d;
+  color: white;
+}
+.dropdown a:hover {
+  background-color: #e8da5d;
+  border-radius: 5px;
+  color: white;
+}
+
+.kesulitan {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  margin: auto 0;
+  margin-left: 30%;
+  margin-right: 20px;
+}
+.level {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.level option {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search {
+  width: 20%;
+  height: auto;
+  margin: auto;
+  margin-right: 10px;
+}
+.cari {
+  width: auto;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  background-color: white;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+}
+.cari button {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.cari button img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-right: 10px;
+}
+.cari input {
+  width: auto;
+  height: auto;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.draft {
+  width: 90%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.draftMapel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  border: 1px solid #9656a1;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.listMapel {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: auto;
+}
+.mapel-1 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.mapel-1:hover {
+  color: #9656a1;
+  transition: 0.5s;
+}
+.listMapel img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.icon {
+  width: 15%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.edit img {
+  width: 25px;
+  height: 25px;
+  background-color: #e8da5d;
+  padding: 3px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.edit img:hover {
+  background-color: #e78fb3;
+}
+.trash img {
+  width: 25px;
+  height: 25px;
+  background-color: #b20040;
+  padding: 3px;
+  border-radius: 5px;
+}
+.trash img:hover {
+  background-color: #e78fb3;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: #9656a1;
+  justify-content: center;
+}
+.copyRight {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  margin: 6px 20px;
+}
