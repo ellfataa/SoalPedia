@@ -3,12 +3,14 @@
 ![logo2](https://github.com/user-attachments/assets/97f3d942-ff62-4295-b41a-604bbd44fe0a)
 
 
+[Link Front End SoalPedia] (https://soal-pedia.vercel.app/)
+
 ## 🌟 Tentang SoalPedia  
 
 **SoalPedia** adalah platform edukasi berbasis web yang menyediakan **kumpulan materi dan soal pelajaran SMA terlengkap** untuk kelas 10, 11, dan 12. Website ini dirancang sebagai sumber belajar digital yang memudahkan siswa dalam:  
 
 - Mencari referensi soal berdasarkan materi  
-- Memahami konsep melalui pembahasan terstruktur  
+- Memahami konsep melalui pembahasan terstruktur
 
 ## 🎯 Fitur Inti  
 
